@@ -174,7 +174,7 @@ Matrices HttpWrapper::get_matrices(const std::vector<Location>& locs) const {
     }
   }
 
-  check_unfound(locs, nb_unfound_from_loc, nb_unfound_to_loc);
+  //check_unfound(locs, nb_unfound_from_loc, nb_unfound_to_loc);
 
   return m;
 }
